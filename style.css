@@ -1,0 +1,1052 @@
+/*
+Theme Name: Audio Books
+Theme URI: http://www.audiobk.com
+Description: Audiobooks Theme
+Author: bamba
+*/
+
+body {
+    background-image: url(images/jpg/Site-font.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    background-color: #fff;
+}
+
+header {
+    height: 165px;
+}
+
+.top_line {
+    height: 6px;
+    background-color: #06cdff;
+}
+
+.img_l {
+    padding-top: 15px;
+    padding-left: 7px;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.devuska {
+    float: right;
+    position: inherit;
+    overflow: hidden;
+    margin-right: -20px;
+}
+
+.kaktotam {
+    height: 145px;
+    margin-top: 5px;
+}
+
+.img_d {
+    padding-top: 12px;
+    padding-left: 60px;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.logo_site {
+    background-size: contain;
+}
+
+.nav_meny_row {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.responsive-menu {}
+
+.nv_style {
+    background-color: #06cdff;
+    border: none;
+    border-radius: 0 0 0 0;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.line_bottom_nav {
+    background-color: #1f93b2;
+    height: 6px;
+}
+
+.navbar-inverse .navbar-collapse {
+    border-color: #16A8BB;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #1f93b2;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #1f93b2;
+}
+
+.offsets_menu {}
+
+.nav navbar-nav li a:hover {
+    color: #de2626;
+}
+
+.style_link {
+    font-size: 20px;
+}
+
+.li-search {
+    padding-left: 75px;
+    margin-left: 250px;
+}
+
+.search-lg {
+    /* устанавливаем необходимую ширину формы в зависимости от дизайна
+  ** форма без проблем растягивается */
+
+    margin-top: 8px;
+    padding-left: 40px;
+    position: absolute;
+    float: left;
+    margin-left: -85px;
+    padding-bottom: 5px;
+    /* кнопку отправки будем позиционировать абсолютно,
+  ** поэтому необходимо это свойство */
+
+    position: relative;
+}
+
+.search-lg input {
+    /* отключаем бордюры у инпутов */
+
+    border: none;
+}
+/* стили для поля ввода */
+
+.search-lg .input {
+    /* растягиваем поле ввода на всю ширину формы */
+    /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки */
+
+    padding: 8px 75px 10px 15px;
+    /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* добавляем внутренние тени */
+
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* закругляем углы */
+
+    border-radius: 20px;
+    background: #EEE;
+    font: 13px Roboto, Tahoma, Arial, sans-serif;
+    color: #555;
+    outline: none;
+}
+/* меняем оформление поля ввода при фокусе */
+
+.search-lg .input:focus {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    background: #E8E8E8;
+    color: #333;
+}
+/* оформляем кнопку отправки */
+
+.search-lg .submit {
+    /* позиционируем кнопку абсолютно от правого края формы */
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    /* растягиваем кнопку на всю высоту формы */
+
+    height: 100%;
+    cursor: pointer;
+    background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+    /* добавляем прозрачность кнопке отправки */
+
+    opacity: 0.5;
+}
+/* при наведении курсора меняем прозрачность кнопки отправки */
+
+.search-lg .submit:hover {
+    opacity: 0.8;
+}
+/* данное свойство необходимо для того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+.li-search-md {
+    padding-right: 0px;
+}
+
+.search-md {
+    /* устанавливаем необходимую ширину формы в зависимости от дизайна
+  ** форма без проблем растягивается */
+
+    margin-top: 8px;
+    padding-left: 25px;
+    position: absolute;
+    float: left;
+    margin-left: -20px;
+    padding-bottom: 5px;
+    /* кнопку отправки будем позиционировать абсолютно,
+  ** поэтому необходимо это свойство */
+
+    position: relative;
+}
+
+.search-md input {
+    /* отключаем бордюры у инпутов */
+
+    border: none;
+}
+/* стили для поля ввода */
+
+.search-md .input {
+    /* растягиваем поле ввода на всю ширину формы */
+    /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки */
+
+    padding: 8px 8% 10px 15px;
+    /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /* добавляем внутренние тени */
+
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    /* закругляем углы */
+
+    border-radius: 20px;
+    background: #EEE;
+    font: 13px Roboto, Tahoma, Arial, sans-serif;
+    color: #555;
+    outline: none;
+}
+/* меняем оформление поля ввода при фокусе */
+
+.search-md .input:focus {
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2), inset 0 1px 2px rgba(0, 0, 0, 0.4);
+    background: #E8E8E8;
+    color: #333;
+}
+/* оформляем кнопку отправки */
+
+.search-md .submit {
+    /* позиционируем кнопку абсолютно от правого края формы */
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    /* растягиваем кнопку на всю высоту формы */
+
+    height: 100%;
+    cursor: pointer;
+    background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+    /* добавляем прозрачность кнопке отправки */
+
+    opacity: 0.5;
+}
+/* при наведении курсора меняем прозрачность кнопки отправки */
+
+.search-md .submit:hover {
+    opacity: 0.8;
+}
+/* данное свойство необходимо для того, чтобы в браузерах
+** Chrome и Safari можно было стилизовать инпуты */
+
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+.ol_class {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    margin-bottom: 0px;
+}
+
+.row_transform {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.content_glav {
+    height: 85%;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+}
+
+.aside_bar {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.list-group-style {
+    height: 100%;
+    width: 100%;
+}
+
+.list-group-item {
+    background-color: #06cdff;
+}
+
+a.list-group-item {
+    color: #fff;
+}
+
+.carousel-control {
+    position: none;
+}
+
+.razdelitel {
+    overflow: hidden;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #E1F8FA;
+}
+
+.razdelitel h4 {
+    text-align: center;
+    color: #465d60;
+    margin: 15px auto;
+}
+
+.razdelitel_podpiska {
+    overflow: hidden;
+    margin-top: 10px;
+    height: 35px;
+    background-color: #E1F8FA;
+}
+
+.razdelitel_podpiska h4 {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #465d60
+}
+
+#size_social_site {
+    float: right;
+}
+
+.razdelitel_podpiska img {
+    float: right;
+}
+
+.line_footer_bottom {
+    height: 10px;
+    background-color: #1F93B2;
+    margin-top: 5px;
+}
+
+.footer_bottom {
+    margin-top: 0px;
+    background-color: #06CDFF;
+    width: 100%;
+    height: 100%;
+    padding-left: 75px;
+    margin-bottom: 0px;
+}
+
+.navigation_footer_kontent {
+    padding-left: 35%;
+    margin: auto;
+}
+
+.obv_kniga {
+    margin-top: 20px;
+    margin-left: 15px;
+    height: 330px;
+    width: 200px;
+}
+
+.obv_kniga:hover {
+    transition-property: background-color;
+    transition-duration: 1s;
+    cursor: pointer;
+    background-color: #c6e0e3;
+}
+
+.for_knigi {
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.section {
+    height: 100%;
+}
+
+.kniga_img {
+    margin-top: 5px;
+    margin-left: -6px;
+    width: 180px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.style_a_knigi {
+    color: #149fc6;
+    font-weight: bold;
+    border-bottom: 1px solid #149fc6;
+    font-size: 14px;
+}
+
+.style_a_knigi:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    text-decoration: none;
+    border-bottom: 1px solid #c1dbe0;
+    color: #16657b;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.active_link {
+    background-color: #1F93B2;
+}
+
+.obv_knigi_1 {
+    margin-top: 5px;
+    float: left;
+    margin-left: -10px;
+    max-width: 126px;
+}
+
+.obv_knigi_2 {
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.list_style_1 {
+    list-style-image: url(images/png/icons/icon-5-1.png);
+}
+
+.list_style_2 {
+    list-style-image: url(images/png/icons/icon-10-1.png);
+}
+
+.list_style_3 {
+    list-style-image: url(images/png/icons/icon-6-1.png);
+}
+
+.list_style_1_1 {
+    list-style-image: url(images/png/icons/icon-9-1.png);
+}
+
+.list_text_transform {
+    font-family: Roboto, sans-serif;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-top: 3px;
+}
+
+.list_text_transform a {
+    font-family: Roboto, sans-serif;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-top: 3px;
+    color: #919191;
+}
+
+.h6_style {
+    border: 1px solid #1fcbe2;
+    padding: 5px;
+    margin-top: 0px;
+    color: #17a1a7;
+    font-size: 10px;
+}
+
+.bottom_peodrobno {
+    //padding-bottom: 20px;
+    float: right;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.bottom_peodrobno a {
+    display: block;
+    text-decoration: none;
+}
+
+.h6_style:hover {
+    background-color: #fff;
+}
+
+#kopirait {
+    text-align: center;
+}
+
+#scrollup {
+    position: fixed;
+    /* фиксированная позиция */
+
+    opacity: 0.8;
+    /* прозрачность */
+
+    padding: 2px 2px 5px;
+    /* отступы */
+
+    background: #0f7b8e;
+    border-radius: 5px;
+    /* скругление углов */
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    left: 10px;
+    /* отступ слева */
+
+    bottom: 50px;
+    /* отступ снизу */
+
+    display: none;
+    /* спрятать блок */
+
+    cursor: pointer;
+}
+
+#section_1_footer {
+    <!-- background-color: #17a8ce;
+    --> margin-right: 15px;
+    margin-top: 10px;
+    height: 90%;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+#section_2_footer {
+    <!-- background-color: #17a8ce;
+    --> margin-right: 15px;
+    margin-top: 10px;
+    height: 90%;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+#section_3_footer {
+    <!-- background-color: #17a8ce;
+    --> margin-right: 15px;
+    margin-top: 10px;
+    height: 90%;
+    padding-right: 0px;
+    border-radius: 5px;
+    margin-bottom: 14px;
+}
+
+.text-footers {
+    color: #d6fcfd;
+    border-bottom: 1px solid #85dcf4;
+    margin-right: 5px;
+    font-weight: 300;
+}
+
+#footer_text_position {}
+
+.li_foterr {
+    list-style: none;
+    color: #e2edf0;
+}
+
+.li_foterr a {
+    list-style: none;
+    color: #e2edf0;
+}
+
+.otstp {
+    padding-left: 15px;
+}
+
+.left_ssilka {
+    float: right;
+    margin-right: 100px;
+}
+
+.razdelitel_podpiska h4 {
+    padding-top: 0px;
+}
+
+.razdelitel h4 {
+    padding-top: 0px;
+}
+
+#subskribe {
+    padding-right: 10px;
+}
+
+.action_link {
+    background-color: #1f93b2;
+}
+
+.list_text_transform a:hover {
+    font-family: Roboto, sans-serif;
+    text-transform: capitalize;
+    font-size: 10px;
+    margin-top: 3px;
+    color: #2babc9;
+}
+
+.uppod_flesh_audioplayer {
+    padding-right: 20px;
+}
+
+#no-active_tezt {
+    color: #6895a2;
+}
+
+.text_color {
+    color: #899ba0;
+}
+
+.opisanie_knigi {
+    background-color: #333;
+    margin-top: 15px;
+}
+
+#slideshow {
+    margin-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {}
+
+.A_spoiler {
+    margin-top: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 1px solid #1f93b2;
+}
+
+.padding_bottom {
+    margin-bottom: 20px;
+}
+
+#vk {
+    margin-top: 50px;
+}
+
+.container_galeria {
+    height: 400px;
+}
+
+.kypit {
+    background-color: #94e4f8;
+    margin-top: 60px;
+}
+
+.url_zakaz {
+    color: #13667c;
+    text-align: center;
+    margin-top: -2px
+}
+
+.url_zakaz h2 {
+    margin-top: -0px;
+}
+
+.url_zakaz:hover {
+    color: #334f57;
+    text-align: center;
+}
+
+.raiting {
+    height: 255 border: 1px solid #333;
+}
+
+.con_zapomnit {
+    margin-top: 20px;
+    s
+}
+
+.inpyt_top {
+    float: left;
+}
+
+.zapomnit {
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.othistit {
+    float: left;
+}
+
+.audio_kn {
+    margin-top: 10px;
+}
+
+.audio_kn a {}
+
+.audio_kn img {
+    margin-left: 15px;
+    margin-right: 10px;
+    width: 150px;
+    height: 210px;
+    float: left;
+}
+
+.knopka_pokypka a {
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    box-shadow: 1px 1px 0px 2px #820000;
+}
+
+.knopka_pokypka a:hover {
+    padding: 10px 15px 10px 15px;
+    color: #ddd2d2;
+    background-color: red;
+    text-decoration: none;
+    box-shadow: 1px 1px 64px -10px #820000 inset;
+}
+
+.vk_koment {
+    margin-top: -380px;
+    margin-left: 40px;
+}
+
+.social_top {
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+.pdf_jnline {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #06cdff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.pdf_jnline:hover {
+    padding: 10px 15px 10px 15px;
+    border: 1px solid #1f93b2;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.statia {
+    padding-top: 40px;
+    margin-top: -40px;
+    border-bottom: 3px solid #93e3f7;
+    margin-left: 5%;
+}
+
+.statia p {
+    padding-top: 5%;
+    text-align: left;
+}
+
+.h3_stati {
+    margin-left: 40px;
+}
+
+.img_stati {
+    float: left;
+}
+
+.kniga_1 {
+    margin-top: 15px;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.img_kniga {
+    height: 250px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.img_kniga img {
+    height: 250px;
+    width: 200px;
+}
+
+.text_knia {
+    height: 200px;
+    margin-left: 20px;
+    background-color: #888282;
+}
+
+.text_opisabnie {
+    height: 250px;
+    background-color: #;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.text_opisabnie i {
+    color: #06657e;
+}
+
+.text_opisabnie h3 {
+    margin-top: 70px;
+}
+
+.text_opisabnie p {
+    font-weight: 600;
+    font-size: 22px;
+    color: #1f93b2;
+    background-color: #e9f4f7;
+    border-left: 3px solid #21caf7;
+    padding-left: 5px;
+}
+
+.site_knopki {
+    height: 100px;
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+.left_pos {
+    margin-left: -20px;
+    margin-top: 15px;
+    margin-top:
+}
+
+.kypit_kng_top {
+    padding: 0px;
+    background-color: #;
+    color: #1f93b2;
+    width: 100;
+    margin-top: 20px;
+    border-bottom: 3px solid #8fe2f7;
+}
+
+.opsh_kep_kn {
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.dop_opis {
+    height: 100px;
+    background-color: #444;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.button_kypit {
+    padding: 0px;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.content_glav2 {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+}
+
+.vk_vedget {
+    padding-left: 40px;
+}
+
+.top_h1 {
+    margin-top: -25px;
+    text-align: center;
+    color: #098aaa;
+    margin-bottom: 20px;
+}
+
+#section {}
+
+.rty {}
+
+#section rty {}
+
+.ty {
+    height: 2800px;
+}
+
+.thitat_kniga_online {
+    margin-left: 25px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.pokypka {
+    padding: 15px 20px 15px 20px;
+    background-color: #ffa700;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.pokypka:hover {
+    padding: 15px 20px 15px 20px;
+    background-color: #ffa700;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 0px 0px 100px -28px #000000 inset;
+}
+
+.divis {
+    margin-top: 30px;
+}
+
+.bootom_pok {
+    margin-top: 30px;
+}
+/* Audio Player Styles */
+
+#audioplayer141 {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.audio_content {
+    position: inherit;
+}
+
+.zapomnit_pozition {
+    height: 455px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 3px;
+    border: 1px solid #7de4ff;
+}
+
+.row_audio {
+    margin-left: 8px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.kniga_kontent_img {
+    height: 240px;
+    width: 170px;
+    background-image: url(/images/img_knig/4461.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+    margin-left: 55px;
+}
+
+.h3_opisanie {
+    color: #156b81;
+    float: right;
+    margin-top: 15px;
+    border-left: 5px solid #aee4f0;
+    background-color: #ecf8fa;
+    padding-left: 3px;
+    background-image: -webkit-linear-gradient (left, #7de4ff, 60%, #d1d1d1 51%, #fefefe 100%);
+    )
+}
+
+.opisanie_u_knigis {
+    margin-left: -20px;
+    height: 300px;
+}
+
+.opis_kontent {
+    height: 100%;
+    margin-left: -15px;
+    width: 100%;
+}
+
+#right_opisanie {
+    float: left;
+}
+
+.left_opisanie {
+    float: left;
+}
+
+.left_table {}
+
+.right_table {
+    margin-left: 25px;
+}
+
+#left_otstp {
+    margin-left: 30px;
+}
+
+.post_user_otkl {
+    margin-top: -15px;
+}
+
+#user_block_1 {
+    border-left: 3px solid #156b81;
+}
+
+#user_block_2 {
+    overflow: auto;
+}
+
+.slide_con {
+    float: left;
+}
+
+.slide_container {
+    height: 143px;
+    width: 399;
+    overflow: hidden;
+}
+
+.slide1_con {
+    height: 143px;
+    width: 399;
+    margin-left: 399px;
+}
+
+.slide2_con {
+    height: 143px;
+    width: 399;
+    margin-left: 399px;
+}
+
+.slide3_con {
+    height: 143px;
+    width: 399;
+}
+
+.content_slide_show {
+    height: 143px;
+    width: 399;
+}
+
+#vk_groups {
+    margin: 0 auto 15px;
+}
+
+.cont {
+    padding-bottom: 20px;
+}
